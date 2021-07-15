@@ -11,10 +11,13 @@
 @media only screen and (max-width: 575px) {}
 
 
-/* landscape view */
+/* landscape view starts*/
 
 @media screen and (orientation:landscape) and (min-device-width: 320px) and (max-device-width: 575px) {}
 
 @media screen and (orientation:landscape) and (min-device-width: 575px) and (max-device-width: 768px) {}
 
 @media screen and (orientation:landscape) and (min-device-width: 768px) and (max-device-width: 1080px) {}
+
+
+/* landscape view ends*/

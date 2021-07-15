@@ -1,0 +1,20 @@
+@media only screen and (min-width: 1920px) {}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 991px) {}
+
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (max-width: 575px) {}
+
+
+/* landscape view */
+
+@media screen and (orientation:landscape) and (min-device-width: 320px) and (max-device-width: 575px) {}
+
+@media screen and (orientation:landscape) and (min-device-width: 575px) and (max-device-width: 768px) {}
+
+@media screen and (orientation:landscape) and (min-device-width: 768px) and (max-device-width: 1080px) {}

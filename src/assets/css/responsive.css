@@ -8,7 +8,11 @@
 
 @media only screen and (max-width: 767px) {}
 
-@media only screen and (max-width: 575px) {}
+@media only screen and (max-width: 575px) {
+    .banner_bottom {
+        transform: rotate(360deg) !important;
+    }
+}
 
 
 /* landscape view starts*/

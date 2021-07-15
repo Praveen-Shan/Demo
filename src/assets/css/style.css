@@ -2819,10 +2819,10 @@ q:before {
     border: none;
 }
 
-.award_menu img {
+/* .award_menu img {
     max-width: 35px;
     margin-right: 15px;
-}
+} */
 
 .web_services .col-md-5 {
     margin-right: 30px
@@ -12297,7 +12297,6 @@ hr {
     .award_menu {
         color: #fff;
         padding: 0px;
-        margin-bottom: 2px;
         border: none;
     }
 }

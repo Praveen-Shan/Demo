@@ -12,6 +12,18 @@
     .banner_bottom {
         transform: rotate(360deg) !important;
     }
+
+/* HomePage view starts */
+.award_menu{
+    font-size: smaller;
+}
+.award_menu img{
+    width: 20%;
+}
+
+
+/* HomePage view ends */
+
 }
 
 

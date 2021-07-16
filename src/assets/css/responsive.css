@@ -1,6 +1,10 @@
-@media only screen and (min-width: 1920px) {}
+@media only screen and (min-width: 1920px) {
+    
+}
 
-@media only screen and (max-width: 1200px) {}
+@media only screen and (max-width: 1200px) {
+   
+}
 
 @media only screen and (max-width: 991px) {}
 
@@ -23,6 +27,31 @@
 
 
 /* HomePage view ends */
+
+/* Career view starts */
+
+.c-icon-block img {
+    padding: 10px;
+    height: 80px;
+    width: 80px;
+    max-height: 80px;
+    max-width: 80px;
+    margin: 0 !important;
+}
+.c-icon-block p {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0 !important;
+    color: #787878;
+}
+.c-icon-block h3 {
+    font-size: 20px;
+    text-transform: capitalize;
+    margin: 0 0 0 10px !important;
+}
+
+/* Career view ends */
+
 
 }
 

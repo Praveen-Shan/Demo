@@ -75,23 +75,35 @@
 
   /*Android Starts*/
 
-  .coe_message img{
-      margin: 25px 0;
+  .coe_message img {
+    margin: 25px 0;
   }
-  .android-app img{
-      margin-top: 25px;
-      margin-bottom: 100px;
+  .android-app img {
+    margin-top: 25px;
+    margin-bottom: 100px;
   }
-  .call-us-bg{
-      margin-top: 25px !important;
+  .call-us-bg {
+    margin-top: 25px !important;
   }
-  .android_last_img{
-      margin-bottom: 125px !important;
+  .android_last_img {
+    margin-bottom: 125px !important;
   }
-  .android_success_img{
-      margin-top: 50px !important;
+  .android_success_img {
+    margin-top: 50px !important;
   }
   /*Android Ends*/
+
+  /*IOS Start*/
+  .android-app_IOS img {
+    margin-bottom: 0 !important;
+    margin-top: -200px;
+  }
+  .IOS_content {
+    margin-top: 30px !important;
+  }
+  .IOS_last_img {
+    margin-bottom: 125px !important;
+  }
 }
 
 @media only screen and (max-width: 575px) {
@@ -148,7 +160,15 @@
   .choose-c {
     margin-bottom: 15px !important;
   }
+
   /* E-commerce view ends */
+
+  /*Navbar*/
+  .navbar-default .navbar-collapse {
+    border-color: #666;
+    height: 100% !important;
+  }
+  /*Navbar Ends*/
 }
 
 /* landscape view starts*/

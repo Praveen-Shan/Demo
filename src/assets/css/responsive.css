@@ -1,135 +1,165 @@
-@media only screen and (min-width: 1920px) {}
+@media only screen and (min-width: 1920px) {
+}
 
 @media only screen and (max-width: 1200px) {
-    /* Header */
-    .masthead-inner {
-        width: 100% !important;
-    }
-    /* Header */
+  /* Header */
+  .masthead-inner {
+    width: 100% !important;
+  }
+  /* Header */
 }
 
 @media only screen and (max-width: 991px) {
-    /* Header */
-    .masthead-inner {
-        width: 100% !important;
-    }
-    /* Header */
+  /* Header */
+  .masthead-inner {
+    width: 100% !important;
+  }
+
+  /* Header */
 }
 
 @media only screen and (max-width: 992px) {
-    /* Header */
-    .masthead-inner {
-        width: 100% !important;
-    }
-    .header-bottom .country-list li {
-        margin-left: 80px !important;
-    }
-    .footer:before{
-        margin-top: 50px;
-    }
-    /* Header */
+  /* Header */
+  .masthead-inner {
+    width: 100% !important;
+  }
+  .header-bottom .country-list li {
+    margin-left: 80px !important;
+  }
+
+  /* Header */
 }
 
 @media only screen and (max-width: 767px) {
-    /* Header */
-    .masthead-inner {
-        width: 100% !important;
-    }
-    /* Header */
-    /* E-commerce view starts */
-    .ard {
-        margin-bottom: 10px !important;
-    }
-    .choose-c {
-        margin-bottom: 15px !important;
-    }
-    /* E-commerce view ends */
-    .masthead .cyclebanner {
-        transform: rotate(360deg) !important;
-    }
-    .masthead.main-masthead {
-        transform: rotate(360deg) !important;
-    }
-    .banner_bottom {
-        transform: rotate(360deg) !important;
-    }
-    header .logo img {
-        margin-top: 10px !important;
-        margin-left: -30px !important;
-    }
-    .navbar .nav>li>a {
-        border-radius: 0 !important;
-    }
-    .floating-form-wrap {
-        display: none !important;
-    }
+  /* Header */
+  .masthead-inner {
+    width: 100% !important;
+  }
+  /* Header */
+  /* E-commerce view starts */
+  .ard {
+    margin-bottom: 10px !important;
+  }
+  .choose-c {
+    margin-bottom: 15px !important;
+  }
+  /* E-commerce view ends */
+  .masthead .cyclebanner {
+    transform: rotate(360deg) !important;
+  }
+  .masthead.main-masthead {
+    transform: rotate(360deg) !important;
+  }
+  .banner_bottom {
+    transform: rotate(360deg) !important;
+  }
+  header .logo img {
+    margin-top: 10px !important;
+    margin-left: -30px !important;
+  }
+  .navbar .nav > li > a {
+    border-radius: 0 !important;
+  }
+  .floating-form-wrap {
+    display: none !important;
+  }
+
+  /*Clients Starts*/
+  .test_details {
+    margin-bottom: 0 !important;
+  }
+  .testimonials {
+    margin-bottom: 0 !important;
+  }
+  /*Clients Ends*/
+
+  /*Android Starts*/
+
+  .coe_message img{
+      margin: 25px 0;
+  }
+  .android-app img{
+      margin-top: 25px;
+      margin-bottom: 100px;
+  }
+  .call-us-bg{
+      margin-top: 25px !important;
+  }
+  .android_last_img{
+      margin-bottom: 125px !important;
+  }
+  .android_success_img{
+      margin-top: 50px !important;
+  }
+  /*Android Ends*/
 }
 
 @media only screen and (max-width: 575px) {
-    header .logo img {
-        width: 120px;
-        min-height: 0px;
-        margin-top: 10px;
-        margin-left: -20px;
-    }
-    .banner_bottom {
-        transform: rotate(360deg) !important;
-    }
-    /* Header */
-    .masthead-inner {
-        width: 100% !important;
-    }
-    .header-bottom .country-list li {
-        margin: 0 !important;
-    }
-    /* Header */
-    /* HomePage view starts */
-    .award_menu {
-        font-size: smaller;
-    }
-    .award_menu img {
-        width: 20%;
-    }
-    /* HomePage view ends */
-    /* Career view starts */
-    .c-icon-block img {
-        padding: 10px;
-        height: 80px;
-        width: 80px;
-        max-height: 80px;
-        max-width: 80px;
-        margin: 0 !important;
-    }
-    .c-icon-block p {
-        font-size: 14px;
-        line-height: 22px;
-        margin: 0 !important;
-        color: #787878;
-    }
-    .c-icon-block h3 {
-        font-size: 20px;
-        text-transform: capitalize;
-        margin: 0 0 0 10px !important;
-    }
-    /* Career view ends */
-    /* E-commerce view starts */
-    .ard {
-        margin-bottom: 10px !important;
-    }
-    .choose-c {
-        margin-bottom: 15px !important;
-    }
-    /* E-commerce view ends */
+  header .logo img {
+    width: 120px;
+    min-height: 0px;
+    margin-top: 10px;
+    margin-left: -20px;
+  }
+  .banner_bottom {
+    transform: rotate(360deg) !important;
+  }
+  /* Header */
+  .masthead-inner {
+    width: 100% !important;
+  }
+  .header-bottom .country-list li {
+    margin: 0 !important;
+  }
+  /* Header */
+  /* HomePage view starts */
+  .award_menu {
+    font-size: smaller;
+  }
+  .award_menu img {
+    width: 20%;
+  }
+  /* HomePage view ends */
+  /* Career view starts */
+  .c-icon-block img {
+    padding: 10px;
+    height: 80px;
+    width: 80px;
+    max-height: 80px;
+    max-width: 80px;
+    margin: 0 !important;
+  }
+  .c-icon-block p {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0 !important;
+    color: #787878;
+  }
+  .c-icon-block h3 {
+    font-size: 20px;
+    text-transform: capitalize;
+    margin: 0 0 0 10px !important;
+  }
+  /* Career view ends */
+  /* E-commerce view starts */
+  .ard {
+    margin-bottom: 10px !important;
+  }
+  .choose-c {
+    margin-bottom: 15px !important;
+  }
+  /* E-commerce view ends */
 }
-
 
 /* landscape view starts*/
 
-@media screen and (orientation: landscape) and (min-device-width: 320px) and (max-device-width: 575px) {}
+@media screen and (orientation: landscape) and (min-device-width: 320px) and (max-device-width: 575px) {
+}
 
-@media screen and (orientation: landscape) and (min-device-width: 575px) and (max-device-width: 768px) {}
+@media screen and (orientation: landscape) and (min-device-width: 575px) and (max-device-width: 768px) {
+}
 
-@media screen and (orientation: landscape) and (min-device-width: 768px) and (max-device-width: 1080px) {}
-
+@media screen and (orientation: landscape) and (min-device-width: 768px) and (max-device-width: 1080px) {
+}
 
 /* landscape view ends*/

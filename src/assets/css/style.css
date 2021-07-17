@@ -12223,13 +12223,11 @@ hr {
     .country-list li {
         display: inline-block;
         line-height: 20px;
-        padding: 5px 0px;
         color: #fff !important;
         font-weight: bold;
         font-size: 10px;
         padding-left: 0px;
         font-family: 'Montserrat';
-        margin-right: 30px;
     }
     .country-list li.usa-icon,
     .country-list li.india-icon,

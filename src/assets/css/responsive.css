@@ -24,6 +24,9 @@
     .header-bottom .country-list li {
         margin-left: 80px !important;
     }
+    .footer:before{
+        margin-top: 50px;
+    }
     /* Header */
 }
 
@@ -115,9 +118,6 @@
     }
     .choose-c {
         margin-bottom: 15px !important;
-    }
-    .Cosmetic_Sec {
-        margin-bottom: 100px !important;
     }
     /* E-commerce view ends */
 }

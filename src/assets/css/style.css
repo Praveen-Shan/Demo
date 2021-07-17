@@ -13099,7 +13099,7 @@ body {
 }
 
 .cyclebanner.cycle-slideshow .home-slider img {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .cyclebanner.cycle-slideshow .home-slider:before {
@@ -13982,7 +13982,7 @@ header {
     .cyclebanner,
     .fullwidthbanner {}
     .awards-section .container {
-        width: 100%;
+        /* width: 100%; */
     }
     .banner_bottom {
         margin-top: 0;

@@ -2819,6 +2819,7 @@ q:before {
     border: none;
 }
 
+
 /* .award_menu img {
     max-width: 35px;
     margin-right: 15px;
@@ -14322,7 +14323,6 @@ header {
     border-radius: 8px;
 }
 
-
 .shadow-box {
     box-shadow: 1px 6px 8px -5px rgb(0 0 0 / 15%);
     border-radius: 10px;
@@ -15253,7 +15253,7 @@ ul {
         background: #000000bf;
     }
     .navbar .nav>li a {
-        padding-left: 20%;
+        /* padding-left: 20%; */
     }
 }
 
@@ -15297,12 +15297,13 @@ ul {
 
 
 /* Homepage Starts */
+
 .card {
     border-bottom: 1px solid #E5E9F2;
     padding: 5px;
     width: 80%;
     margin-left: 10%;
-    margin-top:-30px;
+    margin-top: -30px;
     border-radius: 15px !important;
 }
 
@@ -15310,7 +15311,8 @@ ul {
     color: #000;
     font-size: 16px;
 }
-.card h3{
+
+.card h3 {
     font-size: 12px !important;
 }
 

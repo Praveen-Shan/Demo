@@ -52,6 +52,16 @@
 
 @media only screen and (max-width: 767px) {
     /* Header */
+    .responsive-none {
+        display: none;
+    }
+    .country-list li a {
+        font-size: 10px !important;
+        padding: 0px !important;
+    }
+    .country-list li a img {
+        width: 29px !important;
+    }
     .masthead-inner {
         width: 100% !important;
     }
@@ -120,48 +130,47 @@
     .IOS_last_img {
         margin-bottom: 125px !important;
     }
-    .flutter_last_img{
+    .flutter_last_img {
         margin-bottom: 125px;
     }
-    .app_sup_last_row{
+    .app_sup_last_row {
         margin-bottom: 100px;
     }
-    .animated{
+    .animated {
         margin-top: 80px !important;
     }
-    .heading-quaternary{
+    .heading-quaternary {
         margin-top: 50px;
     }
-    .nodejs_last_img{
+    .nodejs_last_img {
         margin-bottom: 100px;
         margin-top: 0 !important;
     }
-    .react_last_sec{
+    .react_last_sec {
         margin-bottom: 100px;
     }
-    .frontend_last_sec{
+    .frontend_last_sec {
         margin-bottom: 100px;
     }
-    .backend_last_sec{
+    .backend_last_sec {
         margin-bottom: 100px;
     }
-    .IT_consulting_last_sec{
+    .IT_consulting_last_sec {
         margin-bottom: 125px;
     }
-    .dig_mark_last_img{
+    .dig_mark_last_img {
         margin-bottom: 120px;
         margin-top: 25px !important;
     }
-    .design_sec{
+    .design_sec {
         margin-bottom: 100px;
     }
-    .ecommerce_last_sec{
+    .ecommerce_last_sec {
         margin-bottom: 100px !important;
     }
-    .career_last_sec{
+    .career_last_sec {
         margin-bottom: 80px !important;
     }
-    
 }
 
 @media only screen and (max-width: 575px) {

@@ -13642,11 +13642,6 @@ header {
     .navbar-toggle {
         margin-top: 0;
     }
-    .country-list li a {
-        font-size: 9px;
-        border-right: 1px solid #ddd;
-        padding: 5px;
-    }
     .footer-company-nav ul {
         text-align: center;
     }

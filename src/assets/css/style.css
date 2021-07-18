@@ -13025,7 +13025,7 @@ body {
 }
 
 .masthead {
-    width: 105%!important;
+    width: 105%;
     position: relative;
     overflow: visible;
     z-index: 0;
@@ -13041,7 +13041,7 @@ body {
 }
 
 .masthead.main-masthead {
-    width: 105%!important;
+    width: 105%;
     position: relative;
     overflow: visible;
     z-index: 0;
@@ -13502,11 +13502,6 @@ header {
     }
     .masthead-inner {
         overflow: hidden;
-        margin-bottom: 15px;
-        margin-top: -200px;
-        margin-top: 0px;
-        padding-bottom: 30px;
-        margin-bottom: 100px;
     }
     .logo-container:before {
         left: -200%;
@@ -13518,7 +13513,7 @@ header {
     }
     .masthead.main-masthead {
         min-height: 720px;
-        transform: rotate(359deg);
+        /* transform: rotate(359deg); */
     }
     .form-horizontal .controls,
     .media-object {

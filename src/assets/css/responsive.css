@@ -52,8 +52,29 @@
 
 @media only screen and (max-width: 767px) {
     /* Header */
+    .masthead.main-masthead {
+        width: 100%!important;
+        z-index: 0;
+        position: static;
+        background: #ff7201;
+        transform: rotate(0deg) !important;
+        overflow: hidden;
+    }
+    .masthead {
+        width: 100%!important;
+        transform: rotate(0deg) !important;
+    }
+    .masthead-inner {
+        margin-top: -15px !important;
+        /* margin-top: 0px; */
+        padding-bottom: 58px !important;
+    }
     .responsive-none {
         display: none;
+    }
+    .navbar .nav>li>a>span {
+        margin-left: 10px !important;
+        padding-left: 0% !important;
     }
     .country-list li a {
         font-size: 10px !important;
@@ -79,6 +100,7 @@
     }
     .masthead.main-masthead {
         transform: rotate(360deg) !important;
+        width: 100%;
     }
     .banner_bottom {
         transform: rotate(360deg) !important;

@@ -13503,10 +13503,10 @@ header {
     .masthead-inner {
         overflow: hidden;
     }
-    .logo-container:before {
+    /* .logo-container:before {
         left: -200%;
         top: -20%;
-    }
+    } */
     .cyclebanner.cycle-slideshow .home-slider img {
         margin-top: 40px;
         width: 90% !important;
@@ -15002,10 +15002,11 @@ header {
     color: #fff;
     padding: 50px 20px 200px;
 }
-.ios-bg{
+
+.ios-bg {
     background: #46b6fa;
     color: #fff;
-    padding: 80px 20px 80px;   
+    padding: 80px 20px 80px;
 }
 
 .text-white {
@@ -15253,11 +15254,11 @@ ul {
 }
 
 @media (max-width: 990px) and (min-width: 768px) {
-    .logo-container:before {
+    /* .logo-container:before {
         left: -170%;
         top: -120%;
         transform: rotate(340deg);
-    }
+    } */
 }
 
 .navbar.navbar-dark .breadcrumb .nav-item.active>.nav-link:hover,

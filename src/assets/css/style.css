@@ -15002,6 +15002,11 @@ header {
     color: #fff;
     padding: 50px 20px 200px;
 }
+.ios-bg{
+    background: #46b6fa;
+    color: #fff;
+    padding: 80px 20px 80px;   
+}
 
 .text-white {
     color: #fff;

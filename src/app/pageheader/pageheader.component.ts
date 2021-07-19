@@ -19,4 +19,6 @@ export class PageheaderComponent {
   phoneFormControl = new FormControl('', [
     Validators.required,
   ]);
+  ph_number: string = 'tel:+91 9994479923';
+
 }

@@ -23,7 +23,7 @@
 
             <div class="col-md-8 cform-wrap col-md-offset-3 col-sm-10 col-xs-12">
                 <h1 class="font-x-large mr-t" style="text-align: center;">Send Enquiry Now</h1>
-                <mdb-card>
+                <mdb-card style="margin: auto;">
                       <mdb-card-body class="px-lg-5 pt-0 mr-t">
                         <form class="example-form"  action="contact.php" method="POST">
                             <mat-form-field appearance="outline">
@@ -97,6 +97,13 @@
                                 <input type="text" name="name" matInput placeholder="" [formControl]="amountFormControl" value="">
                                 <mat-error *ngIf="amountFormControl.hasError('required')">
                                     Amount is <strong>required</strong>
+                                  </mat-error>
+                              </mat-form-field>
+                              <mat-form-field appearance="outline">
+                                <mat-label>Referred by</mat-label>
+                                <input type="text" name="name" matInput placeholder="" [formControl]="referredByFormControl" value="">
+                                 <mat-error *ngIf="nameFormControl.hasError('required')">
+                                    Referred by is <strong>required</strong>
                                   </mat-error>
                               </mat-form-field>
                               <div class="site-btn form-bottom">

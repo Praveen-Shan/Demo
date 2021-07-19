@@ -24,5 +24,9 @@ export class BuynowComponent {
   locationFormControl = new FormControl('', [
     Validators.required,
   ]);
+  referredByFormControl = new FormControl('', [
+    Validators.required,
+
+  ]);
 
 }
